@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/IMT_frontend/sw.js', { scope: '/IMT_frontend/' })})}
